@@ -39,9 +39,6 @@
 
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import empimg from "../../assets/emp.png";
-import calimg from "../../assets/cal.png";
-import drawimg from "../../assets/draw.png";
 
 const Projects = () => {
   // Array of project objects
@@ -49,21 +46,21 @@ const Projects = () => {
     {
       title: "Calories Burnt Prediction",
       main: "A machine learning project using Python libraries like Pandas, Matplotlib, and Scikit-learn to build a Linear Regression model for predicting calories burnt.",
-      img: calimg,
+      img: "/cal.png",
       demoLink:"https://calories-burnt-prediction-fc1a.onrender.com",
       sourceLink:"https://github.com/Bikash2448/Calories_Burnt_Prediction"
     },
     {
       title: "Employee Management System",
       main: "A full-stack application built using React, Node.js, Express, and MongoDB to manage employee tasks and roles with role-based access controls.",
-      img: empimg,
+      img: "/emp.png",
       demoLink: "https://employee-managment-fronted.onrender.com",
       sourceLink: "https://github.com/Bikash2448/Employee_Managment_Fronted",
     },
     {
       title: "Collaborative Drawing Application",
       main: "A real-time collaborative drawing tool built using Node.js, Socket.IO, and HTML5 Canvas with features like color selection and real-time synchronization.",
-      img: drawimg,
+      img: "/draw.png",
       demoLink:"https://dashboard.render.com/web/srv-cum5kqtumphs738d69ug",
       sourceLink:"https://github.com/Bikash2448/Collaborating-Drawing-Board"
     },

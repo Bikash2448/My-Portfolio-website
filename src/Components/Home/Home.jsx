@@ -1,5 +1,5 @@
 import React from "react";
-import avatarImg from "../../assets/7358602-removebg-preview.png";
+// import avatarImg from "../../assets/7358602-removebg-preview.png";
 import TextChange from "../TextChange";
 import myimg from "../../assets/BikashP.jpg";
 import { useNavigate } from "react-router-dom";
@@ -22,7 +22,7 @@ const Home = () => {
         </button>
       </div>
       <div>
-        <img src={avatarImg} />
+        <img src="/7358602-removebg-preview.png" />
       </div>
     </div>
   );

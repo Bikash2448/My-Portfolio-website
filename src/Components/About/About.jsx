@@ -1,6 +1,4 @@
 import React from "react";
-import AboutImg from "../../assets/7358653-removebg-preview.png";
-import myimg from "../../assets/BikashP.jpg";
 import { IoArrowForward } from "react-icons/io5";
 
 const About = () => {
@@ -12,7 +10,7 @@ const About = () => {
       <div>
         <h2 className="text-2xl md:text-4xl mb-8 md:ml-16 font-bold">About</h2>
         <div className="md:flex flex-wrap flex-col md:flex-row items-center">
-          <img className="md:h-60 h-48 w-60 border border-none mr-28 rounded-[50%]" src={myimg} alt="Bikash Mal" />
+          <img className="md:h-60 h-48 w-60 border border-none mr-28 rounded-[50%]" src="/BikashP.jpg" alt="Bikash Mal" />
 
           <ul>
             <div className="flex gap-3 py-4">
